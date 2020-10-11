@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actionbar"
+    app:popupTheme="@style/Theme.AppCompat.Light"
+    tools:ignore="MissingClass">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toolbar_title"
+        android:layout_gravity="center"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:id="@+id/toolbar_title" />
+    <Button
+        android:id="@+id/btnShowCollection"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/star"
+        android:layout_gravity="right"
+        android:onClick="getList"
+        />
+    <Button
+        android:id="@+id/btnIconDog"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/animal_paw_print"
+        android:layout_marginStart="0dp"
+        android:layout_gravity="left"
+        />
+</android.support.v7.widget.Toolbar>

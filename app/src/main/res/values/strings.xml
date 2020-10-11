@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MascotasAndrea</string>
+    <string name="txtMascota">Chester</string>
+    <string name="countLikes">5</string>
+    <string name="txtMascotas">Mascotas</string>
+    <string name="txtFavoritos">Favoritos</string>
+    <string name="toolbar_title">Toolbar Title</string>
+</resources>
